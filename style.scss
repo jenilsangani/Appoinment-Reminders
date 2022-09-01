@@ -103,17 +103,208 @@ body {
             width: 24px;
             margin: 15px 20px 14px 20px;
           }
-          h3{
+          h3 {
             margin: 16px 0;
             height: auto;
           }
-          img{
+          img {
             margin-left: auto;
             margin-right: 24px;
           }
         }
-        a:last-child{
-            margin-top: auto;
+        a:last-child {
+          margin-top: auto;
+        }
+      }
+    }
+    .topNav {
+      position: fixed;
+      flex-direction: column;
+      height: 80px;
+      z-index: 4;
+      background: #0f90ba;
+      width: 100vw;
+    }
+    main {
+      display: flex;
+      flex-grow: 1;
+      flex-direction: column;
+      height: 100%;
+      .topNavPlaceHolder {
+        height: 80px;
+      }
+      .bottom {
+        display: flex;
+        flex-grow: 1;
+        flex-direction: row;
+        .left {
+          width: 290px;
+          display: flex;
+          padding-top: 112px;
+          flex-direction: column;
+          border-right: 2px solid rgba(#979795, 0.5);
+          background: #ffffff;
+          height: 100vh;
+          .mainSection {
+            .title {
+              display: flex;
+              align-items: center;
+              color: #302e2c;
+              font-weight: 600;
+              margin-bottom: 20px;
+              h3 {
+                margin: 16px 0;
+                height: auto;
+                text-overflow: ellipsis;
+                font-size: 20px;
+                white-space: nowrap;
+                font-weight: 500;
+              }
+              span {
+                width: 24px;
+                height: 24px;
+                margin: 0 20px 0 20px;
+              }
+            }
+            .subTitle {
+              padding-left: 51px;
+              font-style: normal;
+              font-weight: 500;
+              font-size: 18px;
+              margin-bottom: 20px;
+              line-height: 27px;
+              color: #302e2c;
+              align-items: center;
+              gap: 0;
+              display: flex;
+            }
+            .active {
+              background: #0f90ba;
+              height: 42px;
+              color: #ffffff;
+              border-radius: 100px;
+              margin-left: 25px;
+              padding-left: 22px;
+              margin-right: 10px;
+              align-self: center;
+              justify-self: center;
+            }
+          }
+          .title2 {
+            align-items: center;
+            display: flex;
+            color: #302e2c;
+            font-weight: 600;
+            margin-bottom: 30px;
+            margin-top: 47px;
+            margin-bottom: 20px;
+          }
+          .subTitle2 {
+            margin-bottom: 20px;
+            padding-left: 51px;
+            font-family: "Poppins";
+            font-weight: 500;
+            font-style: normal;
+            font-size: 18px;
+            line-height: 27px;
+            color: #302e2c;
+            align-items: center;
+            display: flex;
+          }
+          span {
+            height: 24px;
+            margin: 0 20px 0 20px;
+            width: 24px;
+          }
+          .arrow {
+            margin-top: 4px;
+            margin-left: 23px;
+          }
+        }
+        .appointmentReminders {
+          flex-grow: 1;
+          .title {
+            border-bottom: 1px solid rgba(#979795, 0.5);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 35px;
+            p {
+              position: absolute;
+              top: 115px;
+              font-style: normal;
+              font-weight: 600;
+              font-size: 28px;
+              line-height: 33px;
+              display: flex;
+              align-items: center;
+              text-align: center;
+              justify-self: center;
+              color: #302e2c;
+            }
+          }
+          .automatedMessages {
+            margin-top: 136px;
+            position: relative;
+            border-bottom: 2px solid rgba(#979795, 0.5);
+            p {
+              font-size: 24px;
+              margin-left: 29px;
+              margin-bottom: 19px;
+              width: 500;
+            }
+            .icon:last-child {
+              position: absolute;
+              top: 0;
+              right: 0;
+              margin-right: 45px;
+            }
+          }
+          .smsTriggerTime {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            margin: 12px 29px 0 29px;
+
+            p {
+              color: #0f90ba;
+              font-size: 18px;
+              font-weight: 500;
+              line-height: 20px;
+              margin-right: auto;
+            }
+            table {
+              th {
+                box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+                padding: 15px 35px;
+                border-radius: 100px;
+                color: #96a9ba;
+              }
+              th:nth-child(2) {
+                border: none;
+                box-shadow: none;
+                padding: 0 5px;
+              }
+              th:nth-child(3) {
+                margin-right: 14px;
+                display: block;
+              }
+              th:nth-child(4) {
+                margin-left: 14px;
+              }
+            }
+          }
+          .appointmentConfirmations {
+            margin: 47px auto 19px 29px;
+            p {
+              font-size: 24px;
+              font-weight: 500;
+              line-height: 20px;
+            }
+          }
+          .divider {
+            border: 1px solid rgba(#979795, 0.5);
+          }
         }
       }
     }
