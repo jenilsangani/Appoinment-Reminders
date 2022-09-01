@@ -80,16 +80,40 @@ body {
           align-items: center;
           color: #302e2c;
           gap: 20px;
-          span{
+          span {
             height: 24px;
             width: 24px;
           }
-          h3{
+          h3 {
             text-overflow: ellipsis;
             white-space: nowrap;
             font-size: 18px;
             font-weight: 500;
           }
+        }
+        .active {
+          background-color: #000000;
+          color: #ffffff;
+          height: 54px;
+          border-radius: 100px;
+          margin: 0 17px;
+          gap: 0;
+          span {
+            height: 24px;
+            width: 24px;
+            margin: 15px 20px 14px 20px;
+          }
+          h3{
+            margin: 16px 0;
+            height: auto;
+          }
+          img{
+            margin-left: auto;
+            margin-right: 24px;
+          }
+        }
+        a:last-child{
+            margin-top: auto;
         }
       }
     }
