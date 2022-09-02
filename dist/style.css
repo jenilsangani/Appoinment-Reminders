@@ -429,3 +429,17 @@ body .container main .bottom .appointmentReminders .table2 table tr th:nth-child
   background: #dbeef5;
   line-height: 24px;
 }
+body .container main .bottom .appointmentReminders .save {
+  position: relative;
+  display: flex;
+}
+body .container main .bottom .appointmentReminders .save p {
+  position: absolute;
+  right: 0;
+  padding: 13px 77px;
+  border-radius: 100px;
+  margin: 69px 41px 74px auto;
+  background: #0f90ba;
+  color: #ffffff;
+  font-size: 20px;
+}
