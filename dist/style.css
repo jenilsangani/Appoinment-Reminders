@@ -258,8 +258,7 @@ body .container main .bottom .appointmentReminders .automatedMessages p {
 }
 body .container main .bottom .appointmentReminders .automatedMessages .icon:last-child {
   position: absolute;
-  display: flex;
-  top: 0%;
+  top: 0;
   right: 0;
   margin-right: 45px;
 }
