@@ -332,11 +332,63 @@ body {
               font-size: 24px;
               font-weight: 500;
               line-height: 20px;
-              margin: 98px 0 19px 29px ;
+              margin: 98px 0 19px 29px;
             }
           }
           .divider {
             border: 1px solid rgba(#979795, 0.5);
+          }
+          .table1 {
+            display: flex;
+            // justify-content: flex-end;
+
+            p {
+              // color: #0f90ba;
+              font-size: 14px;
+              font-weight: 500;
+              line-height: 20px;
+              // margin-right: auto;
+              // margin-left: 29px;
+              // margin-top: 27px;
+            }
+            table {
+              margin-right: 41px;
+              margin-top: 13px;
+              width: 100%;
+              tr {
+                display: flex;
+                gap: 11px;
+                margin-bottom: 13px;
+
+                th {
+                  padding: 13px 34px;
+                  border-radius: 10px;
+                  line-height: 24px;
+                  font-size: 20px;
+                  font-weight: 500;
+                }
+                th:nth-child(1) {
+                  color: #0f90ba;
+                  margin-right: auto;
+                }
+                th:nth-child(2) {
+                  background: #0f90ba;
+                  color: #ffffff;
+                }
+                th:nth-child(3) {
+                  background: #dbeef5;
+                  line-height: 24px;
+                }
+                th:nth-child(4) {
+                  background: #dbeef5;
+                  line-height: 24px;
+                }
+                th:nth-child(5) {
+                  background: #dbeef5;
+                  line-height: 24px;
+                }
+              }
+            }
           }
         }
       }
