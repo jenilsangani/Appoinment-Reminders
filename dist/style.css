@@ -305,3 +305,33 @@ body .container main .bottom .appointmentReminders .appointmentConfirmations p {
 body .container main .bottom .appointmentReminders .divider {
   border: 1px solid rgba(151, 151, 149, 0.5);
 }
+body .container main .bottom .appointmentReminders .appoinmentMsg {
+  position: relative;
+  margin: 15px 0 0 24px;
+}
+body .container main .bottom .appointmentReminders .appoinmentMsg p {
+  font-size: 18px;
+  display: inline;
+  color: #0f90ba;
+}
+body .container main .bottom .appointmentReminders .appoinmentMsg p:nth-child(2) {
+  font-size: 14px;
+  width: 100%;
+  color: #0f90ba;
+}
+body .container main .bottom .appointmentReminders .appoinmentMsg .icon:last-child {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 45px;
+  width: auto;
+}
+body .container main .bottom .appointmentReminders .appointmentReminders2 p {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 20px;
+  margin: 98px 0 19px 29px;
+}
+body .container main .bottom .appointmentReminders .divider {
+  border: 1px solid rgba(151, 151, 149, 0.5);
+}

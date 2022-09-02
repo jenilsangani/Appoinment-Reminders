@@ -305,6 +305,39 @@ body {
           .divider {
             border: 1px solid rgba(#979795, 0.5);
           }
+          .appoinmentMsg {
+            position: relative;
+            margin: 15px 0 0 24px;
+            p {
+              font-size: 18px;
+              display: inline;
+              color: #0f90ba;
+            }
+            p:nth-child(2) {
+              font-size: 14px;
+              width: 100%;
+              color: #0f90ba;
+            }
+            .icon:last-child {
+              position: absolute;
+              top: 0;
+              right: 0;
+              margin-right: 45px;
+              width: auto;
+            }
+          }
+          .appointmentReminders2 {
+            // border: 1px solid;
+            p {
+              font-size: 24px;
+              font-weight: 500;
+              line-height: 20px;
+              margin: 98px 0 19px 29px ;
+            }
+          }
+          .divider {
+            border: 1px solid rgba(#979795, 0.5);
+          }
         }
       }
     }
