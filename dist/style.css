@@ -37,13 +37,12 @@ body .container aside .top {
   justify-content: center;
   background: #f9fafc;
   gap: 5px;
-  margin-top: 1.4rem;
   border-bottom: 2px solid lightgray;
   flex-direction: column;
   padding: 31.29px 23px;
   gap: 4.29px;
 }
-body .container aside .top .log {
+body .container aside .top .logo {
   width: 80px;
 }
 body .container aside .sidebar {
@@ -248,7 +247,6 @@ body .container main .bottom .appointmentReminders .title p {
 }
 body .container main .bottom .appointmentReminders .automatedMessages {
   margin-top: 136px;
-  position: relative;
   border-bottom: 2px solid rgba(151, 151, 149, 0.5);
 }
 body .container main .bottom .appointmentReminders .automatedMessages p {
@@ -267,7 +265,7 @@ body .container main .bottom .appointmentReminders .smsTriggerTime {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  margin: 12px 29px 0 29px;
+  margin: 12px 29px auto 29px;
 }
 body .container main .bottom .appointmentReminders .smsTriggerTime p {
   color: #0f90ba;
@@ -295,7 +293,7 @@ body .container main .bottom .appointmentReminders .smsTriggerTime table th:nth-
   margin-left: 14px;
 }
 body .container main .bottom .appointmentReminders .appointmentConfirmations {
-  margin: 47px auto 19px 29px;
+  margin: 30px auto 19px 29px;
 }
 body .container main .bottom .appointmentReminders .appointmentConfirmations p {
   font-size: 24px;
@@ -377,6 +375,57 @@ body .container main .bottom .appointmentReminders .table1 table tr th:nth-child
   line-height: 24px;
 }
 body .container main .bottom .appointmentReminders .table1 table tr th:nth-child(5) {
+  background: #dbeef5;
+  line-height: 24px;
+}
+body .container main .bottom .appointmentReminders .appointmentReminders3 p {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 20px;
+  margin: 16px 0 19px 29px;
+}
+body .container main .bottom .appointmentReminders .table2 {
+  display: flex;
+}
+body .container main .bottom .appointmentReminders .table2 p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}
+body .container main .bottom .appointmentReminders .table2 table {
+  margin-right: 41px;
+  margin-top: 13px;
+  width: 100%;
+}
+body .container main .bottom .appointmentReminders .table2 table tr {
+  display: flex;
+  gap: 11px;
+  margin-bottom: 13px;
+}
+body .container main .bottom .appointmentReminders .table2 table tr th {
+  padding: 13px 34px 13px 34px;
+  border-radius: 10px;
+  line-height: 24px;
+  font-size: 20px;
+  font-weight: 500;
+}
+body .container main .bottom .appointmentReminders .table2 table tr th:nth-child(1) {
+  color: #0f90ba;
+  margin-right: auto;
+}
+body .container main .bottom .appointmentReminders .table2 table tr th:nth-child(2) {
+  background: #0f90ba;
+  color: #ffffff;
+}
+body .container main .bottom .appointmentReminders .table2 table tr th:nth-child(3) {
+  background: #dbeef5;
+  line-height: 24px;
+}
+body .container main .bottom .appointmentReminders .table2 table tr th:nth-child(4) {
+  background: #dbeef5;
+  line-height: 24px;
+}
+body .container main .bottom .appointmentReminders .table2 table tr th:nth-child(5) {
   background: #dbeef5;
   line-height: 24px;
 }

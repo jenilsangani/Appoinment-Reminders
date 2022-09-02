@@ -34,12 +34,11 @@ body {
         justify-content: center;
         background: #f9fafc;
         gap: 5px;
-        margin-top: 1.4rem;
         border-bottom: 2px solid lightgray;
         flex-direction: column;
         padding: 31.29px 23px;
         gap: 4.29px;
-        .log {
+        .logo {
           width: 80px;
         }
       }
@@ -245,7 +244,6 @@ body {
           }
           .automatedMessages {
             margin-top: 136px;
-            position: relative;
             border-bottom: 2px solid rgba(#979795, 0.5);
             p {
               font-size: 24px;
@@ -264,7 +262,7 @@ body {
             display: flex;
             align-items: center;
             justify-content: flex-end;
-            margin: 12px 29px 0 29px;
+            margin: 12px 29px auto 29px;
 
             p {
               color: #0f90ba;
@@ -295,7 +293,7 @@ body {
             }
           }
           .appointmentConfirmations {
-            margin: 47px auto 19px 29px;
+            margin: 30px auto 19px 29px;
             p {
               font-size: 24px;
               font-weight: 500;
@@ -356,6 +354,61 @@ body {
 
                 th {
                   padding: 13px 34px;
+                  border-radius: 10px;
+                  line-height: 24px;
+                  font-size: 20px;
+                  font-weight: 500;
+                }
+                th:nth-child(1) {
+                  color: #0f90ba;
+                  margin-right: auto;
+                }
+                th:nth-child(2) {
+                  background: #0f90ba;
+                  color: #ffffff;
+                }
+                th:nth-child(3) {
+                  background: #dbeef5;
+                  line-height: 24px;
+                }
+                th:nth-child(4) {
+                  background: #dbeef5;
+                  line-height: 24px;
+                }
+                th:nth-child(5) {
+                  background: #dbeef5;
+                  line-height: 24px;
+                }
+              }
+            }
+          }
+          .appointmentReminders3 {
+            p {
+              font-size: 24px;
+              font-weight: 500;
+              line-height: 20px;
+              margin: 16px 0 19px 29px;
+            }
+          }
+          .table2 {
+            display: flex;
+
+            p {
+              font-size: 14px;
+              font-weight: 500;
+              line-height: 20px;
+            }
+            table {
+              margin-right: 41px;
+              margin-top: 13px;
+              width: 100%;
+              tr {
+                display: flex;
+                gap: 11px;
+                margin-bottom: 13px;
+
+                th {
+                  padding: 13px 34px 13px 34px;
                   border-radius: 10px;
                   line-height: 24px;
                   font-size: 20px;
