@@ -243,6 +243,7 @@ body {
             }
           }
           .automatedMessages {
+            position: relative;
             margin-top: 136px;
             border-bottom: 2px solid rgba(#979795, 0.5);
             p {
@@ -253,7 +254,8 @@ body {
             }
             .icon:last-child {
               position: absolute;
-              top: 23%;
+              display: flex;
+              top: 0%;
               right: 0;
               margin-right: 45px;
             }
@@ -263,7 +265,6 @@ body {
             align-items: center;
             justify-content: flex-end;
             margin: 12px 29px auto 29px;
-
             p {
               color: #0f90ba;
               font-size: 18px;
@@ -337,7 +338,6 @@ body {
           }
           .table1 {
             display: flex;
-
             p {
               font-size: 14px;
               font-weight: 500;
@@ -392,7 +392,6 @@ body {
           }
           .table2 {
             display: flex;
-
             p {
               font-size: 14px;
               font-weight: 500;
@@ -406,7 +405,6 @@ body {
                 display: flex;
                 gap: 11px;
                 margin-bottom: 13px;
-
                 th {
                   padding: 13px 34px 13px 34px;
                   border-radius: 10px;

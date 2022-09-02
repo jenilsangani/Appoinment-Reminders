@@ -246,6 +246,7 @@ body .container main .bottom .appointmentReminders .title p {
   color: #302e2c;
 }
 body .container main .bottom .appointmentReminders .automatedMessages {
+  position: relative;
   margin-top: 136px;
   border-bottom: 2px solid rgba(151, 151, 149, 0.5);
 }
@@ -257,7 +258,8 @@ body .container main .bottom .appointmentReminders .automatedMessages p {
 }
 body .container main .bottom .appointmentReminders .automatedMessages .icon:last-child {
   position: absolute;
-  top: 23%;
+  display: flex;
+  top: 0%;
   right: 0;
   margin-right: 45px;
 }
