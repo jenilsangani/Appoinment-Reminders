@@ -9,6 +9,7 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   list-style: none;
+  transition: all 374ms ease;
 }
 
 body {
@@ -60,7 +61,7 @@ body .container aside .sidebar .close {
   height: 44px;
   width: 44px;
   min-height: 44px;
-  margin: 19px 17px 0 auto;
+  margin: 19px 17px 34px auto;
   background: #ffffff;
   border-radius: 17px;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
